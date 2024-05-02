@@ -1,0 +1,173 @@
+.card{
+  padding:1em;
+  margin:1em;
+  width:25vw;
+  min-height: 50vh;
+  max-height: 100%;
+  border:1px solid aquamarine;
+  border-radius: 10px;
+
+}
+.card img{
+  margin:auto;
+  border-radius: 5px;
+}
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.accordion{
+  border:1px solid black;
+  border-radius: 10px;
+  margin:5px;
+  padding:5px;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+.btn-small{
+  background-color: rgb(255, 247, 237);
+  width:fit-content;
+  border-radius: 10px;
+  padding:2px;
+}
+.name{
+  background-color: aquamarine;
+  border-radius: 5px;
+
+}
+.img{
+  border-radius:10px;
+  height:35vh;
+  width: 20vw;;
+}
+.countries{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:20vw;
+  border:1px solid black;
+  border-radius:5px;
+  margin:8px;
+
+}
+.link{
+  text-decoration: none;
+  color:black;
+}
+.country{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:90vw;
+   flex-wrap: wrap;
+   margin:auto;
+}
+.Navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border:1px solid black;
+  border-radius:10px;
+  background: rgb(173,255,47);
+  background: linear-gradient(90deg, rgba(173,255,47,0.4150035014005602) 2%, rgba(127,255,212,0.3113620448179272) 84%);
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style: none;
+  padding:5px;
+}
+#searchbar{
+  padding:0.5em;
+  border-radius: 5px;
+  border:1px solid aquamarine;
+
+
+}
+.btn{
+  padding:0.7em;
+  background-color: aquamarine;
+  margin-left: 5px;
+  border:1px solid aliceblue;
+  border-radius:5px;
+
+}
+.searchbox{
+  display: block;
+  display: flex;
+  justify-content: flex-end;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border:1px solid aquamarine;
+  border-radius: 5px;
+  flex-direction: column;
+  width:50vw;
+  margin: auto;
+}
+.input{
+  padding:0.5em;
+  border-radius: 5px;
+  margin:10px;
+  min-width: 50%;
+}
+.submit{
+  min-width: 25%;
+  margin: 10px;
+}
+.error{
+  color:red;
+  
+}
+.w-100{
+  width: 100%;
+}
+.navBtn a{
+  padding:0 20px;
+  text-decoration:none;
+  color:black;
+}
+.text-center{
+  text-align: center;
+}
+.order{
+  background-color: greenyellow;
+}
+.available{
+  background-color: royalblue;
+  color:white;
+  border-radius: 20px;
+  border:none;
+
+}
+.imgs{
+  width:150px;
+  height:120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  color:rgb(28, 230, 162);
+}
+.price{
+  background-color: rgb(173, 173, 132);
+  padding: 5px;
+  border-radius:25px;
+}
